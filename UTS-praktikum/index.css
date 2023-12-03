@@ -1,0 +1,244 @@
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  height: 50px;
+  background-color: #132043;
+}
+
+.list-li ::after {
+  content: '';
+  width: 0;
+  height: 2px;
+  background: black;
+  display: block;
+  transition: 0.2s;
+}
+
+.title {
+  color: white;
+}
+
+.list {
+  display: flex;
+  gap: 50px;
+  text-decoration: none;
+  list-style: none;
+}
+
+.list-li {
+  text-decoration: none;
+  color: white;
+}
+
+.list-li:hover {
+  text-decoration: none;
+  color:#50659d;
+}
+
+body {
+  background-image: url("img/background.avif");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px 0px 60px 60px;
+}
+
+.slogan {
+  color: white;
+  font-size: 90px;
+}
+
+.img-slogan {
+  width: 500px;
+  height: 500px;
+  margin-right: 100px;
+}
+
+.btn {
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  border: solid 2px;
+  border-color: #132043;
+}
+
+.btn:hover {
+  cursor: pointer;
+  border-color: white;
+  background-color: #50659d;
+}
+
+.btn2 {
+  text-decoration: none;
+  list-style: none;
+  color: #132043;
+}
+
+.btn2:hover {
+  color: white;
+}
+
+/* profile */
+
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 100px;
+}
+
+.gading {
+  width: 300px;
+  height: 500px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.muty {
+  width: 300px;
+  height: 500px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.gambargading {
+  width: 250px;
+  height: 350px;
+  margin-top: 20px;
+}
+
+.gading1 {
+  display: flex;
+  justify-content: center;
+}
+
+.gading2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.muty1 {
+  display: flex;
+  justify-content: center;
+}
+
+.muty2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.gambarmuty {
+  width: 250px;
+  height: 350px;
+  margin-top: 20px;
+}
+
+.mutyy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.gadingg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.link-btn {
+  text-decoration: none;
+}
+
+/* gading */
+.fotoGading {
+  width: 350px;
+  height: 350px;
+  border-radius: 100%;
+  border: 6px solid;
+  border-color: white;
+}
+
+/* muty */
+.muty-main {
+  width: 700px;
+  height: 200px;
+  background: linear-gradient(135deg, #2b7db3, #0f0252);
+  border: solid 2px;
+  border-color: #ffffff;
+  border-radius: 20px;
+}
+
+.mainn{
+  margin-left: 20px;
+}
+
+.paragraph{
+  margin-top: 20px;
+}
+
+.tulisan{
+  color: white;
+}
+
+.main-muty {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 200px;
+}
+
+.fotoMuty {
+  width: 350px;
+  height: 350px;
+  border-radius: 100%;
+  border: 6px solid;
+  border-color: white;
+  margin-top: 100px;
+}
+
+.card{
+ margin-top: 20px;
+}
+
+.card2{
+  display: flex;
+  align-items: center;
+  gap: 170px;
+}
+
+.contact{
+  text-decoration: none;
+  color: #0f0252;
+}
+
+.tombol{
+  width: 200px;
+  border: 2px solid;
+  border-color:#0f0252;
+  border-radius: 10px;
+  background-color: white;
+  margin-right: 20px;
+}
+
+.tombol:hover{
+  scale: 1.2;
+  transition: 0.5s;
+}
