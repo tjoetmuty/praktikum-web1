@@ -5,6 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Furniture-Tjoet Muty Ahmad</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: '#da373d',
+              softGreen: '#637E76',
+            }
+          }
+        }
+      }
+    </script>
   </head>
   <body>
     <header>
@@ -48,13 +60,13 @@
             </p>
           </div>
         </div>
-        <p class="text-black font-thin" style="font-size: 300px">i</p>
+        <p class="text-black font-thin text-[300px]">i</p>
         <div>
           <div class="">
             <p>
               Realize your dream home furniture with the help of <br />
               personalized furniture design & handpicked products <br />
-              tailored to your style, spce and budget.
+              tailored to your style, sapce and budget.
             </p>
           </div>
           <div>
@@ -65,7 +77,7 @@
         </div>
     </header>
     <main>
-      <section class="bg-cyan-900 w-full h-96">
+      <section class="bg-softGreen w-full h-96">
         <section class="flex justify-between mx-32 pt-10">
           <p class="text-white" style="font-size: 45px">100 % <br>
           Design Consultations</p>
@@ -76,15 +88,17 @@
           </div>
         </section>
       </section>
-      <div class="absolute flex justify-center bg-no-repeat " style="width: 100%;">
-        <img src="img/photo.jpg" alt="" class=" shadow-2xl" style="margin-top: -190px; width: 900px; height: 500px;">
+      <div class="absolute flex justify-center  " style="width: 100%;">
+        <img src="img/photo_1.png" alt="" style="margin-top: -190px;">
       </div>
-      <section class="bg-white w-full h-96 flex items-center justify-center gap-64">
-        <p class="text-black font-semibold text-6xl mt-96">Furniture</p>
-        <p class=" mt-96">where a unique historic or natural environment requires an <br>
+      <section class="bg-white w-full h-96 flex items-center justify-around gap-72">
+        <p class="text-black font-semibold text-6xl mt-24 mr-10">Furniture</p>
+        <p class=" mt-24">where a unique historic or natural environment requires an <br>
         especially thoughtful and innovative solution.</p>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+
+    </footer>
   </body>
 </html>
