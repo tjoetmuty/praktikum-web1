@@ -23,7 +23,7 @@
   </head>
   <body class="font-poppins">
     <header>
-      <nav class="w-full h-20 bg-black flex justify-between items-center px-32 fixed ">
+      <nav class="w-full h-20 bg-black flex justify-between items-center px-32 fixed z-[1000]">
         <div class="flex gap-6">
           <p class="text-white ">Furniture</p>
           <div class="text-white ">-</div>
@@ -41,7 +41,7 @@
           <a href=""
             ><img src="img/shopping-bag1.png" alt="" class="h-6 w-6"
           /></a>
-          <a href=""><img src="img/user.png" alt="" class="h-6 w-6" /></a>
+          <a href="pages/login.html"><img src="img/user.png" alt="" class="h-6 w-6" /></a>
         </div>
       </nav>
       <section class="flex justify-center items-center mx-32 gap-8">
@@ -92,7 +92,7 @@
         </section>
       </section>
       <div class="absolute flex justify-center  " style="width: 100%;">
-        <img src="img/photo_1.png" alt="" style="margin-top: -190px;">
+        <img src="/img/photo_1.png" alt="" style="margin-top: -190px;">
       </div>
       <section class="bg-white w-full h-80 flex items-center justify-around gap-72">
         <p class="text-black font-semibold text-6xl pt-48 mr-10">Furniture</p>
@@ -112,33 +112,50 @@
         <div class="flex gap-[20px] justify-between mx-32 mt-[47px]">
           <div class="bg-white w-[401px] h-[583px] shadow-lg">
             <img src="img/sofa.webp" alt="" class="w-[401px] h-[422px]">
-            <div>
-              <p></p>
-              <p></p>
+            <div class="flex mt-6 justify-between mx-[32px]">
+              <p class="font-semibold text-3xl">SÖDERHAMN</p>
+              <p class="text-2xl">Rp. 249.000</p>
             </div>
-            <button></button>
+            <div class="flex justify-center mt-[30px] mx-[32px] ">
+              <button class="bg-softGreen w-[361px] h-[48px] rounded-3xl font-semibold text-white">add to cart</button> 
+            </div>
           </div>
           <div class="bg-white w-[401px] h-[583px] shadow-lg">
             <img src="img/vas.webp" alt="" class="w-[401px] h-[422px]">
-            <div>
-              <p></p>
-              <p></p>
+            <div class="flex mt-6 justify-between mx-[32px]">
+              <p class="font-semibold text-3xl">FEJKA</p>
+              <p class="text-2xl">Rp. 79.900</p>
             </div>
-            <button></button>
+            <div class="flex justify-center mt-[30px] mx-[32px] ">
+              <button class="bg-softGreen w-[361px] h-[48px] rounded-3xl font-semibold text-white">add to cart</button> 
+            </div>
           </div>
-          <div class="bg-white w-[401px] h-[583px] shadow-lg">
+          <div class="bg-white w-[401px] h-[583px] shadow-lg ">
             <img src="img/laci.webp" alt="" class="w-[401px] h-[422px]">
-            <div>
-              <p class="font-semibold">FEJKA</p>
-              <p></p>
+            <div class="flex mt-6 justify-between mx-[32px]">
+              <p class="font-semibold text-3xl">LENNART</p>
+              <p class="text-2xl">Rp. 4.995.000</p>
+            </div>
+            <div class="flex justify-center mt-[30px] mx-[32px]">
+              <button class="bg-softGreen w-[361px] h-[48px] rounded-3xl font-semibold text-white">add to cart</button> 
             </div>
           </div>
         </div>
-        <button class="flex items-center justify-center">halo</button>
+        <div class="flex justify-center mt-[50px] mx-[32px] pb-[50px]">
+          <button class="bg-white w-[192px] h-[47px] rounded-3xl font-semibold text-black border-2 border-black"><a href="pages/products.html">more products</a></button> 
+        </div>
       </section>
     </main>
-    <footer>
-
+    <footer class="h-[222px] bg-black font-poppins">
+      <div class="flex justify-center gap-[80px] pt-[100px]">
+        <p class="text-white text-[15px]">Inter Furniture Group</p>
+        <p class="text-white text-[15px]">|</p>
+        <p class="text-white text-[15px]">Furniture Fondation</p>
+        <p class="text-white text-[15px]">|</p>
+        <p class="text-white text-[15px]">Contact</p>
+        <p class="text-white text-[15px]">|</p>
+        <p class="text-white text-[15px]">FAQs</p>
+      </div>
     </footer>
   </body>
 </html>
